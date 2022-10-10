@@ -7,19 +7,19 @@ export class Student {
         this.gpa = gpa;
     }
 
-    get firstName() {
+    get FirstName() {
         return this.firstname;
     }
 
-    set firstName(fn) {
+    set FirstName(fn) {
         this.firstname = fn;
     }
 
-    get lastName() {
+    get LastName() {
         return this.lastname;
     }
 
-    set lastName(lm) {
+    set LastName(lm) {
         this.lastname = lm;
     }
 

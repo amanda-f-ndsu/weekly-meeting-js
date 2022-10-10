@@ -48,16 +48,17 @@ export class Course{
 
 
     whoScoredBetter(student1,student2) {
-      betterScore = Math.max(student1.gpa,student2.gpa)
+      let betterScore = Math.max(student1.gpa,student2.gpa)
       if(student1.gpa == betterScore && student2.gpa == betterScore){
          console.log("You guys both did good, I guess.");
       }
       else if(student1.gpa == betterScore){
-        console.log(student1.name + " did better, get dunked on " + student2.name);
+        console.log(student1.firstname + " did better, get dunked on " + student2.firstname);
       }
       else{
-        console.log(student2.name + " did better, get dunked on " + student1.name);
+        console.log(student2.firstname + " did better, get dunked on " + student1.firstname);
       }
+      
     }
 
     getBestGrade() {
